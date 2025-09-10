@@ -11,3 +11,6 @@ Aplicação web simples (Flask + HTML/JS) para visualização de dados do agrone
 - Consumir a API `/dados`
 - Exibir os dados em uma tabela
 - Exibir um gráfico de barras com a quantidade por estado
+
+## Diagrama de Fluxos de Aplicação
+<img src="./diagrama_fluxo_aplicacao.png">
