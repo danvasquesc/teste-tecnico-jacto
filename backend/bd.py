@@ -5,12 +5,12 @@ dados_agro = [
     {"estado": "MG", "produto": "Arroz", "quantidade": 94693},
 
     # Café
-    {"estado": "SP", "produto": "Café", "quantidade": 335310},
-    {"estado": "PR", "produto": "Café", "quantidade": 40206},
-    {"estado": "MG", "produto": "Café", "quantidade": 1687329},
+    {"estado": "SP", "produto": "Cafe", "quantidade": 335310},
+    {"estado": "PR", "produto": "Cafe", "quantidade": 40206},
+    {"estado": "MG", "produto": "Cafe", "quantidade": 1687329},
 
     # Feijão
-    {"estado": "SP", "produto": "Feijão", "quantidade": 199126},
-    {"estado": "PR", "produto": "Feijão", "quantidade": 860843},
-    {"estado": "MG", "produto": "Feijão", "quantidade": 531031}
+    {"estado": "SP", "produto": "Feijao", "quantidade": 199126},
+    {"estado": "PR", "produto": "Feijao", "quantidade": 860843},
+    {"estado": "MG", "produto": "Feijao", "quantidade": 531031}
 ]

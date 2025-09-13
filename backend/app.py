@@ -10,4 +10,4 @@ def get_dados():
     return make_response(jsonify(dados_agro))
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
