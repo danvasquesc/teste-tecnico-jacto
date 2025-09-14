@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visualização de Dados do Agronegócio Brasileiro</title>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- CSS -->
+    <style>
+    #tabela-dados {
+    border-collapse: collapse;
+    width: 100%;
+}
+    #tabela-dados th, #tabela-dados td {
+    border: 1px solid #bbbaba;
+    padding: 7px;
+    text-align: center;
+}
+  /* Cabecalho */
+    #tabela-dados th {
+    background-color: #f0f0f0;
+}
+</style>
 </head>
+
 <body>
     <h1>Visualização de Dados do Agronegócio Brasileiro</h1>
 
+    <h3>Tabela da Produção Agrícola por Estado, Produto e Quantidade</h3>
+    <div style="max-width: 500px; max-height: 500px;">
     <table id="tabela-dados">
         <thead>
             <tr>
@@ -16,10 +38,16 @@
                 <th>Quantidade</th>
             </tr>
         </thead>
-        <tbody>
-
-        </tbody>
+        <tbody></tbody>
     </table>
+    </div>
+
+    <br>
+
+    <h3>Gráfico da Produção Agrícola Total por Estado</h3>
+    <div style="max-width: 500px; max-height: 500px;">
+        <canvas id="grafico-barras"></canvas>
+    </div>
 
     <script src="script.js"></script>
 </body>
