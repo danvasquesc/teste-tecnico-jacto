@@ -3,7 +3,13 @@
 Aplicação desenvolvida para o **Desafio Técnico – Estágio em Desenvolvimento** do Grupo Jacto.  
 O objetivo é criar uma aplicação web simples que simula a visualização de dados do agronegócio brasileiro, com comunicação entre **backend (API)** e **frontend (visualização em tabela e gráfico)**.  
 
----
+<br>
+
+ ## Demonstração em Vídeo
+
+(Link do vídeo será inserido aqui após gravação)
+
+<br>
 
 ## Requisitos da Aplicação
 
@@ -28,6 +34,14 @@ Segundo o enunciado do teste, a aplicação deveria atender aos seguintes pontos
 
 <br>
 
+## Diagrama de Fluxo
+
+O diagrama de fluxo foi criado para guiar a lógica de comunicação entre backend e frontend, assegurando clareza no processo de desenvolvimento.
+
+<img src="./docs/diagrama_fluxo_aplicacao.png" min-width="300px" max-width="300px" width="300px">
+
+<br>
+
 ## Dados Utilizados
 
 Para tornar a aplicação mais próxima de um cenário real, utilizei dados do **IBGE – Produção Agrícola Municipal (PAM)**, disponíveis no portal: [https://sidra.ibge.gov.br/pesquisa/pam/tabelas](https://sidra.ibge.gov.br/pesquisa/pam/tabelas)  
@@ -46,6 +60,14 @@ Para tornar a aplicação mais próxima de um cenário real, utilizei dados do *
 - **Controle de versão:** Git + GitHub Issues  
 - **Organização do cronograma e revisões:** Trello  
 - **Diagrama de fluxo:** Criado para guiar o desenvolvimento
+
+<br>
+
+## Endpoints
+
+| Método | Rota     | Descrição                                              |
+|--------|----------|--------------------------------------------------------|
+| GET    | `/dados` | Retorna lista de objetos com os dados agrícolas (JSON) |
 
 <br>
 
@@ -89,27 +111,47 @@ O frontend estará disponível em: `http://localhost:8000`
 
 <br>
 
-## Endpoints
+## Organização e Versionamento
 
-| Método | Rota     | Descrição                                              |
-|--------|----------|--------------------------------------------------------|
-| GET    | `/dados` | Retorna lista de objetos com os dados agrícolas (JSON) |
+### Trello
 
+- Planejamento das etapas do desenvolvimento.
 
+- Organização de revisões e cronograma.
 
-# teste-tecnico-jacto
-Aplicação web simples (Flask + HTML/JS) para visualização de dados do agronegócio.
+### GitHub Issues
 
-## Requisitos funcionais (API /dados, tabela, gráfico)
-### Backend
-- API no Flask com rota `/dados`
-- Rota deve retornar uma lista de objetos no formato JSON
-- Essa lista de objetos deve retornar três campos: `estado`, `produto` e `quantidade`
+- Criação de tarefas.
 
-### Frontend
-- Consumir a API `/dados`
-- Exibir os dados em uma tabela
-- Exibir um gráfico de barras com a quantidade por estado
+- Checklists de progresso.
 
-## Diagrama de Fluxos de Aplicação
-<img src="./docs/diagrama_fluxo_aplicacao.png">
+- Cada commit foi relacionado a uma issue → garantindo rastreabilidade no versionamento.
+
+<br>
+
+## Gráficos com Chart.js
+
+Para a construção do gráfico de barras no frontend, utilizei a biblioteca **[Chart.js](https://www.chartjs.org/)**.  
+Essa ferramenta já entrega **configurações prontas e flexíveis**, o que facilitou a implementação do gráfico de forma rápida e organizada.  
+
+<br> 
+
+## Critérios Atendidos
+
+- Organização do código.
+
+- Comunicação clara entre backend e frontend.
+
+- Uso de estruturas de dados corretas (JSON).
+
+- Demonstração do raciocínio lógico.
+
+- Testes com Postman para validação da API.
+
+- Uso de dados reais do IBGE (Tabela 1613 – Lavouras Permanentes).
+
+- Versionamento estruturado com GitHub Issues.
+
+<br> 
+
+#### Feito por [Dan!](https://github.com/danvasquesc) ✨
