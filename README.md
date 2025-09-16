@@ -7,9 +7,9 @@ O objetivo é criar uma aplicação web simples que simula a visualização de d
 
  ## Demonstração em Vídeo
 
-[(Clique aqui para assistir ao vídeo)](https://drive.google.com/file/d/1bfqrG7s8Pdw5bapG3kKa_-Tb36oxRSMm/view?usp=sharing) 
+[(Clique aqui para assistir ao vídeo explicativo)](https://drive.google.com/file/d/1bfqrG7s8Pdw5bapG3kKa_-Tb36oxRSMm/view?usp=sharing) 
 <br>
-_OBS: Vídeo está acelerado para 1.2x devido o tamanho_
+_OBS: Vídeo está acelerado para 1.2x devido o tamanho, mas não prejudicou o objetivo do mesmo._
 
 <br>
 
